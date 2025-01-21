@@ -56,3 +56,56 @@
 
 
 
+
+
+
+---
+
+## Best Deep Learning Models for Classification, Object Detection, and Segmentation
+
+Below are the best deep learning models categorized by task: **Classification**, **Object Detection**, and **Segmentation**. Each table includes the model name, key features, and a link to its implementation.
+
+---
+
+### **Best Models for Classification**
+
+| Model Name           | Key Features                                                                 | Implementation Link                                                                 |
+|----------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| ResNet               | Deep residual networks, skip connections, excellent for image classification | [ResNet GitHub](https://github.com/KaimingHe/deep-residual-networks)               |
+| EfficientNet         | Scalable architecture, state-of-the-art accuracy with fewer parameters      | [EfficientNet GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) |
+| VGG                  | Simple and effective, widely used for feature extraction                    | [VGG GitHub](https://github.com/machrisaa/tensorflow-vgg)                          |
+| Inception (GoogLeNet)| Inception modules, efficient computation, high accuracy                     | [Inception GitHub](https://github.com/tensorflow/models/tree/master/research/slim)  |
+| DenseNet             | Dense connections between layers, feature reuse                             | [DenseNet GitHub](https://github.com/liuzhuang13/DenseNet)                         |
+| MobileNet            | Lightweight, optimized for mobile and edge devices                          | [MobileNet GitHub](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet) |
+| Vision Transformer (ViT) | Transformer-based, state-of-the-art for large-scale datasets               | [ViT GitHub](https://github.com/google-research/vision_transformer)                |
+
+---
+
+### **Best Models for Object Detection**
+
+| Model Name           | Key Features                                                                 | Implementation Link                                                                 |
+|----------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| YOLO (You Only Look Once) | Real-time detection, single-stage detector, high speed                     | [YOLO GitHub](https://github.com/ultralytics/yolov5)                               |
+| Faster R-CNN         | Two-stage detector, high accuracy, region proposal network (RPN)            | [Faster R-CNN GitHub](https://github.com/rbgirshick/py-faster-rcnn)                |
+| SSD (Single Shot Detector) | Single-stage detector, good balance of speed and accuracy                  | [SSD GitHub](https://github.com/weiliu89/caffe/tree/ssd)                           |
+| RetinaNet            | Focal loss for handling class imbalance, high accuracy                      | [RetinaNet GitHub](https://github.com/fizyr/keras-retinanet)                       |
+| EfficientDet         | Scalable, efficient, based on EfficientNet backbone                         | [EfficientDet GitHub](https://github.com/google/automl/tree/master/efficientdet)   |
+| Mask R-CNN           | Extends Faster R-CNN for instance segmentation, high accuracy               | [Mask R-CNN GitHub](https://github.com/matterport/Mask_RCNN)                       |
+| DETR (DEtection TRansformer) | Transformer-based, end-to-end object detection                            | [DETR GitHub](https://github.com/facebookresearch/detr)                            |
+
+---
+
+### **Best Models for Segmentation**
+
+| Model Name           | Key Features                                                                 | Implementation Link                                                                 |
+|----------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| U-Net               | Designed for biomedical image segmentation, encoder-decoder architecture    | [U-Net GitHub](https://github.com/zhixuhao/unet)                                   |
+| DeepLab             | Atrous convolution, state-of-the-art for semantic segmentation              | [DeepLab GitHub](https://github.com/tensorflow/models/tree/master/research/deeplab) |
+| FCN (Fully Convolutional Network) | First fully convolutional network for segmentation, pixel-wise prediction  | [FCN GitHub](https://github.com/shelhamer/fcn.berkeleyvision.org)                  |
+| PSPNet (Pyramid Scene Parsing Network) | Pyramid pooling module, captures global context                          | [PSPNet GitHub](https://github.com/hszhao/PSPNet)                                  |
+| Mask R-CNN          | Extends Faster R-CNN for instance segmentation, high accuracy               | [Mask R-CNN GitHub](https://github.com/matterport/Mask_RCNN)                       |
+| HRNet (High-Resolution Network) | Maintains high-resolution representations, excellent for dense prediction | [HRNet GitHub](https://github.com/HRNet/HRNet-Semantic-Segmentation)               |
+| SegNet              | Encoder-decoder architecture, efficient for real-time segmentation          | [SegNet GitHub](https://github.com/alexgkendall/SegNet-Tutorial)                   |
+
+---
+ 
