@@ -110,7 +110,4 @@ Below are the best deep learning models categorized by task: **Classification**,
 | **Mask R-CNN**       | Extends Faster R-CNN for instance segmentation, high accuracy               | [Mask R-CNN GitHub](https://github.com/matterport/Mask_RCNN)                       |
 | **HRNet**            | Maintains high-resolution representations, excellent for dense prediction | [HRNet GitHub](https://github.com/HRNet/HRNet-Semantic-Segmentation)               |
 | **SegNet**           | Encoder-decoder architecture, efficient for real-time segmentation          | [SegNet GitHub](https://github.com/alexgkendall/SegNet-Tutorial)                   |
-
----
-
-This `README.md` is now well-organized, visually appealing, and ready for use! 🚀
+ 🚀
